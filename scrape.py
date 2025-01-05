@@ -2,7 +2,8 @@ from selenium.webdriver import Remote, ChromeOptions
 from selenium.webdriver.chromium.remote_connection import ChromiumRemoteConnection
 from bs4 import BeautifulSoup
 
-SBR_WEBDRIVER = "http://localhost:4444/wd/hub"
+#  BEST TO HAVE THIS IN A .ENV FILE
+SBR_WEBDRIVER = ""
 
 
 def scrape_website(website_url):
